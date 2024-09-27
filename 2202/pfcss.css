@@ -1,0 +1,80 @@
+#mainpage{
+	background-color: #060f1a;
+}
+#mainname{
+	display:flex;
+	justify-content: center;
+    align-items: center;
+    float: left;
+	width: 50%;
+	height: 700px;
+	line-height: 700px;
+	text-align: center;
+}
+#title{
+	color: wheat;
+	font-size: 100px;
+}
+#mainpic{
+	display: flex;
+	float: right;
+	width: 50%;
+	height: 700px;
+	background-position: center;
+	background-image: url("https://eduauraapublic.s3.ap-south-1.amazonaws.com/webassets/images/blogs/how-to-become-a-programmer-in-india.jpg");
+}
+#navbar{
+	position: sticky;
+	background-color: #1a2d52;
+	padding: 20px;
+
+}
+.buttons{
+	color: wheat;
+	text-align: center;
+	padding: 15px 17px;
+	font-size: 17px;
+	text-decoration: none;
+}
+.buttons:hover {
+	background-color: #334a7d;
+	color: white;
+}
+#footer{
+	display: flex;
+	width: auto;
+	padding: 40px;
+	background-color: black;
+	align-items: center;
+	flex-direction: column;
+}
+p{color: white;}
+#contactinfo{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+    justify-content: center;
+    height: 100vh;
+}
+.tablehead{
+	padding:10px;
+}
+#abtme{
+	background-image: url('picabt.png');
+	background-size: cover;
+	background-color: black;
+}
+#content{
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+#texts{
+	background-color: black;
+	opacity: 0.5;
+	color: wheat;
+	border: solid black 20px;
+	border-radius: 15px;
+}
